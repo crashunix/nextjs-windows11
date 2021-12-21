@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.taskbar-item {
+  @apply w-10 h-10 hover:bg-white hover:bg-opacity-5 rounded-md flex items-center justify-center p-2;
+}
+
+.taskbar-item.active {
+  @apply bg-white bg-opacity-5;
+}
+
+.sw-icon {
+  @apply flex flex-col items-center space-y-1;
+}
+
+.sw-icon__image {
+  @apply w-12 h-12 bg-center bg-contain bg-no-repeat;
+}
+
+.sw-icon__label {
+  @apply text-white text-sm;
+}
