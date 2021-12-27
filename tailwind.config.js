@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: (theme) => ({
         'windows-wallpaper':
-          "url('https://br.atsit.in/wp-content/uploads/2021/06/agora-voce-pode-baixar-papeis-de-parede-do-windows-11-vazamento-a-frente-do-evento-de-24-de-junho-1.jpg')",
+          "url('https://img.ibxk.com.br/2021/06/16/16091644721048.jpeg')",
         'edge-logo':
           "url('https://upload.wikimedia.org/wikipedia/pt/thumb/9/98/Microsoft_Edge_logo_%282019%29.svg/1200px-Microsoft_Edge_logo_%282019%29.svg.png')",
         'store-logo':
@@ -26,6 +26,9 @@ module.exports = {
           'hard-gray': '#1A1A1A',
           'light-gray': '#2D2D2D',
           'gray': '#232323',
+          'blue-300': '#2188D6',
+          'blue-200': '#1B98E3',
+          'blue-100': '#41C4F8'
         }
       },
       translate: {

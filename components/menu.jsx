@@ -1,6 +1,6 @@
 import { BsPower } from "react-icons/bs";
 import React, { useState } from 'react';
-import { MenuContext } from "../providers/menu";
+import { MenuContext } from "../stores/menu";
 
 const Menu = () => {
 

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .taskbar-item {
-  @apply w-10 h-10 hover:bg-white hover:bg-opacity-5 rounded-md flex items-center justify-center p-2;
+  @apply w-10 h-10 hover:bg-white hover:bg-opacity-75 rounded-sm flex items-center justify-center p-2;
 }
 
 .taskbar-item.active {
